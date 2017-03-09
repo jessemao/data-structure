@@ -1,7 +1,7 @@
 import PriorityQueue from '../priority-queue-es6';
 import assert from 'assert';
 
-describe.only('Priority Queue', function() {
+describe('Priority Queue', function() {
   beforeEach(function() {
     this.queue = new PriorityQueue();
   });
