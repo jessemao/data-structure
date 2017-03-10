@@ -1,4 +1,4 @@
-import PriorityQueue from '../priority-queue-es6';
+import PriorityQueue from '../src/priority-queue-es6';
 import assert from 'assert';
 
 describe('Priority Queue', function() {

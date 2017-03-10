@@ -1,4 +1,4 @@
-import Stack from '../stack-es6';
+import Stack from '../src/stack-es6';
 import assert from 'assert';
 
 describe('Stack', function() {

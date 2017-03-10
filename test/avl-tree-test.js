@@ -1,5 +1,5 @@
 import assert from 'assert';
-import AVLTree from '../avl-tree-es6';
+import AVLTree from '../src/avl-tree-es6';
 
 describe('AVL Tree', function() {
   beforeEach(function() {

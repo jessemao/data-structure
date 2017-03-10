@@ -1,5 +1,5 @@
 import assert from 'assert';
-import HashTable from '../hash-table-es6';
+import HashTable from '../src/hash-table-es6';
 
 describe('Hash Table', function() {
   beforeEach(function() {

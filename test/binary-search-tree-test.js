@@ -1,5 +1,5 @@
 import assert from 'assert';
-import BinarySearchTree from '../binary-search-tree-es6';
+import BinarySearchTree from '../src/binary-search-tree-es6';
 
 describe('Binary Search Tree', function() {
   beforeEach(function() {

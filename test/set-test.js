@@ -1,5 +1,5 @@
 import assert from 'assert';
-import Set from '../set-es6';
+import Set from '../src/set-es6';
 
 describe('Set', function() {
   beforeEach(function() {

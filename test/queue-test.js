@@ -1,4 +1,4 @@
-import Queue from '../queue-es6';
+import Queue from '../src/queue-es6';
 import assert from 'assert';
 
 describe('Queue', function() {

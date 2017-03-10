@@ -1,5 +1,5 @@
 import assert from 'assert';
-import Map from '../map-es6';
+import Map from '../src/map-es6';
 
 describe('Map', function() {
   beforeEach(function() {

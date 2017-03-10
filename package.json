@@ -1,7 +1,25 @@
 {
   "name": "data-structure",
   "version": "1.0.0",
-  "description": "data structure for javascript",
+  "description": "data structure for javascript es6",
+  "keywords": [
+    "data structure",
+    "javascript",
+    "es6",
+    "stack",
+    "queue",
+    "priority queue",
+    "linked list",
+    "doubly linked list",
+    "circular linked list",
+    "set",
+    "map",
+    "dictionary",
+    "hash table",
+    "binary search tree",
+    "avl tree",
+    "graph"
+  ],
   "main": "example/index.js",
   "directories": {
     "example": "example"
@@ -9,11 +27,6 @@
   "scripts": {
     "test": "mocha --require babel-polyfill --compilers js:babel-register"
   },
-  "keywords": [
-    "data",
-    "structure",
-    "javascript"
-  ],
   "author": "jessemao <jessemao@gmail.com>",
   "license": "MIT",
   "devDependencies": {
