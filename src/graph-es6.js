@@ -11,7 +11,7 @@ class Graph {
     this.vertices.push(v);
     this.adjList.set(v, []);
   }
-  addEdge(v, w) {
+  addEdge(v, w, weight = 0) {
     if (!this.adjList.get(v)) {
       this.addVertex(v);
     }
@@ -26,9 +26,9 @@ class Graph {
     this.vertices.forEach((v) => colors[v] = 'white');
     return colors;
   }
-  initializeDistance() {
+  initializeDistance(dist = 0) {
     var dist = {};
-    this.vertices.forEach((v) => dist[v] = 0);
+    this.vertices.forEach((v) => dist[v] = dist);
     return dist;
   }
   initializePredecessors() {

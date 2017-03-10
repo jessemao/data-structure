@@ -21,6 +21,9 @@ class Set {
   size() {
     return Object.keys(this.items).length;
   }
+  isEmpty() {
+    return this.size() === 0;
+  }
   clear() {
     this.items = {};
   }
