@@ -1,7 +1,7 @@
 import assert from 'assert';
 import WeightedGraph from '../src/weighted-graph-es6';
 
-describe.only('Weighted Graph', function() {
+describe('Weighted Graph', function() {
   beforeEach(function() {
     this.graph = new WeightedGraph();
     this.graph.addVertex('a');

@@ -86,16 +86,19 @@ class LinkedList {
     if (!this.head) {
       return false;
     } else {
-      let current = this.head;
-      let previous;
+      let current = this.head.next;
+      let previous = this.head;
       if (this.head.element === element) {
-        this.head = current.next;
+        this.head = previous.next;
       } else {
-        while (current.next && current.element !== element) {
-          previous = current;
+        while (current) {
+          if (current.element === element) {
+            previous.next = current.next;
+            return true;
+          }
+          previous = previous.next;
           current = current.next;
         }
-        previous.next = current.next;
       }
       this.length--;
       return true;
