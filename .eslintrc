@@ -1,0 +1,19 @@
+{
+	"ecmaFeatures": {
+		"modules": true
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"parser": "babel-eslint",
+	"rules": {
+		"quotes": [2, "single"],
+		"strict": [2, "never"],
+		"babel/new-cap": 1,
+		"no-await-in-loop": 1
+	},
+	"plugins": [
+		"babel"
+	]
+}

@@ -1,7 +1,7 @@
 import assert from 'assert';
 import Graph from '../src/graph-es6';
 
-describe.only('Graph', function() {
+describe('Graph', function() {
   beforeEach(function() {
     this.graph = new Graph();
   })

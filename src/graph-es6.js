@@ -26,9 +26,9 @@ class Graph {
     this.vertices.forEach((v) => colors[v] = 'white');
     return colors;
   }
-  initializeDistance(dist = 0) {
+  initializeDistance(distance = 0) {
     var dist = {};
-    this.vertices.forEach((v) => dist[v] = dist);
+    this.vertices.forEach((v) => dist[v] = distance);
     return dist;
   }
   initializePredecessors() {
